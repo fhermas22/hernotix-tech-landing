@@ -1,4 +1,22 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-azure-blue text-white rounded-lg font-semibold hover:bg-blue-700 transition duration-300 transform hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 border-2 border-gold-yellow text-gold-yellow rounded-lg font-semibold hover:bg-gold-yellow hover:text-charcoal-black transition duration-300;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl font-extrabold text-charcoal-black mb-6;
+  }
+}
+
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +83,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
