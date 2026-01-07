@@ -1,20 +1,30 @@
 @import "tailwindcss";
 
 @theme {
+  --font-family-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  
+  /* Custom colors */
   --color-azure-blue: #007FFF;
   --color-gold-yellow: #FFD700;
   --color-charcoal-black: #121212;
+
+  /* Custom breakpoints (optional) */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
 }
 
-@utility btn-primary {
-  @apply px-6 py-3 bg-azure-blue text-white rounded-lg font-semibold hover:bg-blue-700 transition duration-300 transform hover:scale-105;
-}
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-azure-blue text-white rounded-lg font-semibold hover:bg-blue-700 transition duration-300 transform hover:scale-105;
+  }
 
-@utility btn-secondary {
-  @apply px-6 py-3 border-2 border-gold-yellow text-gold-yellow rounded-lg font-semibold hover:bg-gold-yellow hover:text-charcoal-black transition duration-300;
-}
+  .btn-secondary {
+    @apply px-6 py-3 border-2 border-gold-yellow text-gold-yellow rounded-lg font-semibold hover:bg-gold-yellow hover:text-charcoal-black transition duration-300;
+  }
 
-@utility section-title {
-  @apply text-4xl md:text-5xl font-extrabold text-charcoal-black mb-6;
+  .section-title {
+    @apply text-4xl md:text-5xl font-extrabold text-charcoal-black mb-6;
+  }
 }
-
