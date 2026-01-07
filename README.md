@@ -31,40 +31,40 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**
 
-   \`\`\`bash
-   git clone https://github.com/hernotix/hernotix-tech-landing.git
+   ```bash
+   git clone https://github.com/fhermas22/hernotix-tech-landing.git
    cd hernotix-tech-landing
-   \`\`\`
+   ```
 
 2. **Install dependencies**
 
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Start the development server**
 
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
    The application will be available at `http://localhost:5173`
 
 4. **Build for production**
 
-   \`\`\`bash
+   ```bash
    npm run build
-   \`\`\`
+   ```
 
 5. **Preview production build**
 
-   \`\`\`bash
+   ```bash
    npm run preview
-   \`\`\`
+   ```
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 hernotix-tech-landing/
 ├── public/
 │   ├── hero_illustration.png          # Hero section illustration
@@ -95,7 +95,7 @@ hernotix-tech-landing/
 ├── tsconfig.json                      # TypeScript configuration
 ├── vercel.json                        # Vercel deployment configuration
 └── README.md                          # This file
-\`\`\`
+```
 
 ## 🎨 Brand Colors
 
@@ -133,9 +133,9 @@ The easiest way to deploy this project is using Vercel:
 
 1. **Push to GitHub**
 
-   \`\`\`bash
+   ```bash
    git push origin main
-   \`\`\`
+   ```
 
 2. **Connect to Vercel**
 
@@ -155,10 +155,10 @@ The easiest way to deploy this project is using Vercel:
 
 If your project requires environment variables, create a `.env.local` file:
 
-\`\`\`
+```
 VITE_API_URL=https://your-api-url.com
 VITE_CONTACT_EMAIL=hello@hernotix.com
-\`\`\`
+```
 
 ## 📊 Performance
 
