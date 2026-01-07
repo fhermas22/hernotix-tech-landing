@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Hero() {
   return (
     <section className="bg-charcoal-black text-white py-20 md:py-32 relative overflow-hidden">
