@@ -32,7 +32,7 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository**
 
    \`\`\`bash
-   git clone https://github.com/fhermas22/hernotix-tech-landing.git
+   git clone https://github.com/hernotix/hernotix-tech-landing.git
    cd hernotix-tech-landing
    \`\`\`
 
@@ -71,6 +71,7 @@ hernotix-tech-landing/
 │   ├── web_development_icon.png       # Web development service icon
 │   ├── mobile_development_icon.png    # Mobile development service icon
 │   └── benin_tech_illustration.png    # About section illustration
+│   └── hernotix_tech.svg    # Logo SVG
 ├── src/
 │   ├── components/
 │   │   ├── Header.tsx                 # Navigation header
@@ -204,8 +205,10 @@ Contributions are welcome! To contribute:
 For questions, feedback, or inquiries about HERNOTIX Tech:
 
 - **Email**: hello@hernotix.com
-- **Website**: [hernotix.com](https://hernotix-tech.vercel.app)
+- **Website**: [hernotix-tech.com](https://https://hernotix-tech-landing.vercel.app)
 - **Location**: Benin, West Africa
+<!-- - **LinkedIn**: [HERNOTIX Tech](https://linkedin.com/company/hernotix-tech)
+- **Twitter**: [@HernotixTech](https://twitter.com/hernotix-tech) -->
 
 ## 📚 Resources
 
