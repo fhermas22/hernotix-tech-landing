@@ -11,7 +11,7 @@ export default function Services() {
     {
       icon: '/web_development_icon.png',
       title: 'Développement Web',
-      description: 'Sites web modernes et applications web réactives construits avec React, Tailwind CSS et les dernières technologies.',
+      description: 'Sites web modernes et applications web réactives construits avec Laravel, React, Tailwind CSS et les dernières technologies.',
     },
     {
       icon: '/mobile_development_icon.png',

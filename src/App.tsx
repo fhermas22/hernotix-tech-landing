@@ -1,19 +1,23 @@
-import Header from './components/Header'
-import Hero from './components/Hero'
-import './App.css'
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Services from './components/Services';
+import Portfolio from './components/Portfolio';
+// import About from './components/About';
+// import Contact from './components/Contact';
+// import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-white">
       <Header />
-      <main>
-        <Hero />
-      </main>
-      <footer className="bg-charcoal-black text-white py-8 text-center">
-        <p>&copy; {new Date().getFullYear()} HERNOTIX Tech. Tous droits réservés.</p>
-      </footer>
+      <Hero />
+      <Services />
+      <Portfolio />
+      {/* <About />
+      <Contact />
+      <Footer /> */}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
