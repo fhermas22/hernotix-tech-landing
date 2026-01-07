@@ -205,7 +205,7 @@ Contributions are welcome! To contribute:
 For questions, feedback, or inquiries about HERNOTIX Tech:
 
 - **Email**: hello@hernotix.com
-- **Website**: [hernotix-tech.com](https://https://hernotix-tech-landing.vercel.app)
+- **Website**: [hernotix-tech.com](https://hernotix-tech-landing.vercel.app/)
 - **Location**: Benin, West Africa
 <!-- - **LinkedIn**: [HERNOTIX Tech](https://linkedin.com/company/hernotix-tech)
 - **Twitter**: [@HernotixTech](https://twitter.com/hernotix-tech) -->
